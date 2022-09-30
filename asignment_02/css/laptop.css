@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mr-r-20px{
+    margin-right: 20px;
+}
+
+.mr-r-5px{
+    margin-right: 5px;
+}
+section >#nav-bar>.container{
+    width: 1170px;
+    display: flex;
+    margin: auto ;
+    justify-content: center;
+    align-items: center;
+   
+
+
+} 
+/* Muc tieu nghe nghiep va thong tin ca nhan */
+.bg-grey {
+    background: #f7f7f7; 
+    
+}
+#about>.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 300px;
+    line-height: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bg-grey>.container>#target{
+    margin-left: 100px;
+}
+ h1.section-title{
+    margin-bottom: 25px;
+} 
+div#personal-info {
+    margin-left: 20px;
+    background-color: red;
+}
+ section > .container>#personal-info li{
+    list-style-type: none;
+    color: rgb(89, 87, 87);
+
+}
+section > .container>#personal-info li span{
+    color: black;
+}
+/* Thanh điều hướng */
+#nav-bar {
+    text-align: center;
+    color: black;
+   
+}
+#nav-bar>.container{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar>.container>a:first-child{
+    border-left:  1px solid #bdb6b6;
+}
+#nav-bar>.container>a{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 0px 24px;
+    border-right:  1px solid #bdb6b6;
+    /* border: 1px solid #cbb5b5; */
+}
+#nav-bar>.container>.text-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-right:  1px solid #bdb6b6;
+    padding: 0px 80px;
+}
+#nav-bar>.container>div>h1{
+    font-size: 24px;
+}
+#nav-bar>.container>div>div{
+    font-size: 12px;
+}
+section > .container> #target p{
+    color: rgb(89, 87, 87);
+    line-height: 25px;
+}
+/* Muc anh va ten */
+#banner{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),url(../images/banner.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+}
+/* Thong tin nghe nghiep */
+#job-info>.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+}
+.job-info-container{
+    border: 1px solid black;
+    padding: 25px;
+    min-height: 600px;
+}
+/* muc ky nang va ngon ngu */
+section>.container>.job-info-container>.kn1>.kynang1{
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+section>.container>.job-info-container>.kn1>.kynang2{
+    background: #e8edef;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+section>.container>.job-info-container>.kn1>.kynang3{
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+.now{
+    background: blue;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+/* chinh thanh phan  */
+section>.container>.job-info-container>.kn1>.p1{
+    float: left;
+
+}
+
+.kn{
+    float: left;
+    
+}
+.kn1{
+    clear: both;
+}
+/* sdung grid de can muc voi icon */
+.test1{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+/* ky nang va ngon ngu */
+section>.container>.job-info-container>.kynang1{
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+section>.container>.job-info-container>.kynang2{
+    background: #e8edef;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+/* dau cham xanh */
+.first>li{
+    color: #199cdb;
+  
+}
+.first>li span{
+    color: black;
+}
+.icon-like{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+} 
+.icon1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    color: blue;
+    margin-bottom: 20px;
+}
+/* chung chi */
+.cer-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:50px 30px;
+} 
+.img-cc{
+    width: 240px;
+    margin-right: 10px;
+}
+.cc{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.cer-content-2{
+    padding-left: 20px;
+    border-left: 2px solid rgb(188, 128, 16);
+    flex: 1;
+}
+.cer-content-3{
+    grid-column: 1/-1;
+    padding-top: 20px;
+    border-top: 2px solid rgb(188, 128, 16);
+}
+.cer-content{
+    display: flex;
+}
+
+
+/* Dự án */
+.project-title{
+    padding: 50px 0 30px 0;
+    font-size: 50px;
+    font-weight: 400;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.project-info{
+    border: 1px solid #ccc;
+    min-height: 800px;
+}
+
+.project-img{
+    width: 100%;
+
+}
+
+.project-info__h2 {
+    font-weight: 400;
+    padding: 30px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.project-info__date {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+}
+
+.project-info__date-now {
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+.project-info__date-developer span{
+    font-style: italic;
+}
+
+.project-info__describe {
+    display: flex;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+.project-info__describe-title{
+    width: 25%;
+    padding-left: 10px;
+}
+
+.project-info__describe-content {
+    width: 75%;
+    padding-right: 10px;
+    text-align: justify;
+}
+.project-link{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #0abde3;
+}
+/* footer */
+#footer{
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 30px;
+}
+#footer a:link,
+a:visited {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: none;
+    color:#1d3557
+
+}
+#footer a:hover,
+a:active{
+    cursor:grab;
+    color: #0abde3;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.content__target{
+    padding: 50px 20px 20px 20px;
+    flex: 1;
+}
+
+.content__info{
+    padding: 50px 20px 20px 20px;
+    flex: 1;
+    background-color: #ece9e9;
+}
+
+.content__info ul{
+    list-style-type: none;
+    line-height: 1.4;
+}
+
+.content__title{
+    padding-bottom: 20px;
+}
+
+.content__target p{
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/* .content__item{
+    padding-top: 20px;
+} */
+
+.content__title-text-color{
+    color: #8d8e8f;
+}
+
+/* .project-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+.project-flex{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+.img-da{
+    width: 400px;
+}
+.project-title {
+    padding: 20px;
+    font-weight: 20px;
+    font-size: 18px;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+}
+.project-border{
+    border-top: 1px solid #bdc3c7;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding:10px;
+}
+tr td:first-child{
+    width: 100px;
+    vertical-align: top;
+    font-weight: bold;
+}
+tr{
+    border: 1px solid #bdc3c7;
+}
+
